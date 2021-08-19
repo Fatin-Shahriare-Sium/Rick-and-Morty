@@ -1,0 +1,73 @@
+/* single-location css start */
+.all-location{
+    width: 90%;
+    margin: auto;
+}
+.all-location input{
+    width: 90%;
+    margin: auto;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 5px;
+}
+.all-location__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+/* single-location css end */
+
+/* .single-location-previewer css start */
+.single-location-previewer{
+    width: 300px;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    box-shadow: var(--box-shadow);
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.single-location-previewer a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.single-location-previewer div p{
+    margin: 0px;
+
+}
+/* .single-location-previewer css end */
+
+
+/* .single-location-shower css start  */
+
+.single-location-shower{
+    width: 90%;
+    margin: auto;
+}
+.single-location-shower p{
+    font-size: 1.3rem;
+    color: var(--text-color);
+    font-weight: 500;
+}
+.single-location-shower__name p{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--head-color);
+}
+
+.single-location-shower__resident{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+/* .single-location-shower css end  */
