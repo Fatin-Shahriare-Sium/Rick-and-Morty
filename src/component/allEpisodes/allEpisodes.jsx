@@ -1,6 +1,5 @@
 import { gql, useQuery } from '@apollo/client';
 import React, { useEffect, useState } from 'react'
-import moment from 'moment'
 import './allEpisode.css'
 import SingleEpisodePreview from './single-episode-preview';
 let FECTCH_ALL_EPISODES = gql`

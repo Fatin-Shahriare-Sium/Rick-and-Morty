@@ -2,7 +2,6 @@ import { gql, useQuery } from '@apollo/client';
 import moment from 'moment';
 import React, { useEffect } from 'react'
 import { useParams } from 'react-router-dom';
-import ShowSingleCharacter from '../allCharacter/show-single-character';
 import SingleCharacterPreview from '../allCharacter/single-character-preview';
 import Loading from '../loading';
 

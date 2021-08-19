@@ -4,8 +4,8 @@ import './navbar.css'
 const Navbar = () => {
     let [clicked, setClicked] = useState('home')
     return (
-        <div className='navbar'>
-            <div className='navbar__link '>
+        <div className='navbarx'>
+            <div className='navbarx__link '>
                 <Link to='/'>
                     <p onClick={() => setClicked('home')} className={clicked == 'home' ? 'clicked' : 'not-clicked'}>Home</p>
                 </Link>

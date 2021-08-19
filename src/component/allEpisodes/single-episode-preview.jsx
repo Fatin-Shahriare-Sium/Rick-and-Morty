@@ -1,7 +1,7 @@
 import moment from 'moment'
 import React from 'react'
 import { Link } from 'react-router-dom'
-import AllEpisodes from './allEpisodes'
+
 
 const SingleEpisodePreview = ({ episode }) => {
     function textTrucate(text) {

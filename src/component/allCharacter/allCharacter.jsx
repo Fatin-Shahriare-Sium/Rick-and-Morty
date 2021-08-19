@@ -2,7 +2,6 @@ import { gql, useQuery } from '@apollo/client';
 import React, { useEffect, useState } from 'react'
 import Loading from '../loading';
 import './allCharacter.css'
-import ShowSingleCharacter from './show-single-character';
 import SingleCharacterPreview from './single-character-preview';
 let FETCH_ALL_CHARACTER = gql`
 
@@ -35,7 +34,6 @@ const AllCharacter = () => {
 
     function handleNextPage() {
 
-        let prepage = nextPage - 1
         console.log(typeof nextPage);
         fetchMore({
             variables: { page: nextPage, filter: {} }, updateQuery: (preResult, { fetchMoreResult }) => {

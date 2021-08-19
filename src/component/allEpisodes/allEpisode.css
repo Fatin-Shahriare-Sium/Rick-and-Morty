@@ -1,3 +1,4 @@
+/* all-episode css start */
 .all-episode{
     width: 90%;
     margin: auto;
@@ -19,6 +20,13 @@
     flex-wrap: wrap;
     
 }
+
+/* all-episode css end */
+
+
+
+/* show-single-episode css start */
+
 .show-single-episode{
     width: 90%;
     margin: auto;
@@ -33,10 +41,9 @@
     flex-wrap: wrap;
 }
 
+/* show-single-episode css end */
 
-
-
-
+/* single-episode-previewer css start */
 .single-episode-previewer{
     display: flex;
     justify-content: center;
@@ -55,3 +62,5 @@
 .single-episode-previewer div p{
     font-size: 1.3rem;
 }
+
+/* /* single-episode-previewer css end */
