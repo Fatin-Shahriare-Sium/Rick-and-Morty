@@ -7,4 +7,4 @@
 - Api [api](https://rickandmortyapi.com/graphql)
 - Bootstrap 5
 
-### [Website Link](https://rickandmortyapi.com/graphql)
+### [Website Link](https://tender-jones-d10323.netlify.app/)
