@@ -33,6 +33,7 @@
 }
 .show-single-episode p{
     font-weight: 500;
+    font-size: 1.3rem;
 }
 .show-single-episode__container{
     display: flex;

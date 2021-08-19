@@ -47,7 +47,9 @@ const SingleLocationShower = () => {
                 <p>Type - {data.location.type}</p>
                 <p>All residents -</p>
                 <div className='single-location-shower__resident'>
-                    {data.location.residents.map((sig, index) => <SingleCharacterPreview character={sig} key={index} />)}
+                    {data.location.residents.length > 1 ? data.location.residents.map((sig, index) => <SingleCharacterPreview character={sig} key={index} />) :
+                        <p>No resident found</p>
+                    }
                 </div>
             </div > : <Loading />}
         </>
